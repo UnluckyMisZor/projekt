@@ -1,29 +1,58 @@
-## Welcome to GitHub Pages
+## Witam na mojej stronie
 
-You can use the [editor on GitHub](https://github.com/UnluckyMisZor/projekt/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Ukończyłem tehcnikum informatyczne gdzie przez 2 lata miałem zajęcia z programowania w C++. Uważam że szło mi w miarę dobrze, nie uważam się za jakiegoś super progrimistę ale na programy na lekcjach pisałem bez większych trudności. Poznałem strukturę if, pętli, tablice, odczytywanie i zapisywanie plików tekstowych oraz funkcje.
 
 ```markdown
-Syntax highlighted code block
+Przykładowy program mojego autorstwa na obliczanie 
 
-# Header 1
-## Header 2
-### Header 3
+#include <iostream>
 
-- Bulleted
-- List
+using namespace std;
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+int main() {
+	float a1,b1,c1,a2,b2,c2,z,x;
+	cout<<"Podaj a1: ";
+	cin>>a1;
+	cout<<"Podaj b1: ";
+	cin>>b1;
+	cout<<"Podaj c1: ";
+	cin>>c1;
+	cout<<"Podaj a2: ";
+	cin>>a2;
+	cout<<"Podaj b2: ";
+	cin>>b2;
+	cout<<"Podaj c2: ";
+	cin>>c2;
+	z=b1*(-1);
+	x=b2*(-1);
+	if(z!=1)
+	{
+		a1=a1/z;
+		c1=c1/z;
+		z=1;
+	}
+	if(x!=1)
+	{
+		a2=a2/x;
+		c2=c2/x;
+		x=1;
+	}
+	if(a1==a2)
+	{
+		cout<<"Proste sa rownolegle";
+	}
+	if(a1*a2==-1)
+	{
+		cout<<"Proste sa prostopadle";
+	}
+	if(a1!=a2 && a1*a2!=-1)
+	cout<<"Proste nie sa ani rownolegle ani prostopadle";
+	return 0;
+}
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
