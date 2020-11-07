@@ -6,7 +6,7 @@
 
 Ukończyłem tehcnikum informatyczne gdzie przez 2 lata miałem zajęcia z programowania w C++. Uważam że szło mi w miarę dobrze, nie uważam się za jakiegoś super progrimistę ale na programy na lekcjach pisałem bez większych trudności. Poznałem strukturę if, pętli, tablice, odczytywanie i zapisywanie plików tekstowych oraz funkcje.
 
-Przykładowy program mojego autorstwa na obliczanie 
+Przykładowy program mojego autorstwa na obliczanie czy pierwsza podana prosta jest prostopadła/równoległa do drugiej prostej
 ```markdown
 
 #include <iostream>
